@@ -122,6 +122,9 @@ int main(void)
     HAL_Delay(3000);
 
     /* ---- Demo: mix both fonts ---- */
+
+
+    //123ceshi
     OLED_Clear();
     OLED_SetCursor(0, 0);
     OLED_WriteString("STM32", &Font_8x16, 1);
