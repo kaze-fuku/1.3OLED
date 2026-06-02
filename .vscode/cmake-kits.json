@@ -1,0 +1,15 @@
+[
+    {
+        "name": "ARM GCC 13.3.1 (xPack)",
+        "compilers": {
+            "C": "C:/arm-none-eabi-gcc/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe",
+            "CXX": "C:/arm-none-eabi-gcc/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-g++.exe"
+        },
+        "toolchainFile": "${workspaceFolder}/cmake/gcc-arm-none-eabi.cmake",
+        "preferredGenerator": {
+            "name": "Ninja",
+            "platform": "",
+            "toolset": ""
+        }
+    }
+]
