@@ -107,6 +107,7 @@ int main(void)
     HAL_Delay(2000);
 
     /* ---- Demo: 6x8 small text ---- */
+    
     OLED_Clear();
     OLED_SetCursor(0, 0);
     OLED_WriteString("ABCDEFGHIJKLMNOPQRST", &Font_6x8, 1);
